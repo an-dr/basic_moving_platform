@@ -6,7 +6,7 @@
 #include "weak.h"
 
 
-CountingSensor::CountingSensor(char *id, int pin) :
+CountingSensor::CountingSensor(const char * id, int pin) :
         counter(0)
 {
     this->id[0] = id[0];

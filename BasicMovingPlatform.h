@@ -8,8 +8,6 @@
 #ifndef MOVING_H_
 #define MOVING_H_
 
-#include "common_macros.h"
-#include "common_includes.h"
 #include "weak.h"
 #include "Motor.h"
 #include "CountingSensor.h"

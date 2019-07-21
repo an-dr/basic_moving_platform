@@ -4,8 +4,6 @@
 
 #include "Motor.h"
 
-using namespace std;
-
 Motor::Motor(int pinA, int pinB) :
 		pinA(pinA), pinB(pinB)
 {

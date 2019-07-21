@@ -5,7 +5,8 @@
 #ifndef BASIC_MOVING_PLATFORM_COUNTINGSENSOR_H
 #define BASIC_MOVING_PLATFORM_COUNTINGSENSOR_H
 
-#include "common_includes.h"
+#include <stdio.h>
+#include <string.h>
 #include "weak.h"
 
 #define MSG_SZ 32
@@ -17,7 +18,7 @@ class CountingSensor
 public:
     CountingSensor();
 
-    CountingSensor(char* id, int pin);
+    CountingSensor(const char* id, int pin);
     unsigned int counter;
     char id[3];
     void flush_n_send();

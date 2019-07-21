@@ -5,7 +5,6 @@
 #ifndef BASIC_MOVING_PLATFORM_WEAK_H
 #define BASIC_MOVING_PLATFORM_WEAK_H
 
-#include "common_macros.h"
 #include <string>
 
 using namespace std;
