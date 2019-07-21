@@ -5,7 +5,7 @@
 #ifndef BASIC_MOVING_PLATFORM_MOTOR_H
 #define BASIC_MOVING_PLATFORM_MOTOR_H
 
-#include <string>
+#include "common_includes.h"
 #include "weak.h"
 
 class Motor

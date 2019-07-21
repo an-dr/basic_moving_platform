@@ -38,7 +38,8 @@ void Motor::stop()
 	set_pin(pinB, false);
 }
 
-Motor::Motor()
+Motor::Motor() :
+		pinA(0), pinB(0)
 {
 
 }
