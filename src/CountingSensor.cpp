@@ -3,7 +3,7 @@
 //
 
 #include "CountingSensor.h"
-#include "weak.h"
+#include "BasicMovingPlatform_not_implemented.h"
 
 
 CountingSensor::CountingSensor(const char * id, int pin) :
@@ -29,7 +29,7 @@ void CountingSensor::GenerateMsg()
 void CountingSensor::flush_n_send()
 {
     GenerateMsg();
-    send(msg);
+    send(msg, MSG_SZ);
     ClearMsg();
     counter = 0;
 }

@@ -1,33 +1,8 @@
+//
+// Created by Andrey Gramakov on 21-Jul-19.
+//
 #include <iostream>
 #include "BasicMovingPlatform.h"
-
-
-void set_pin(int pin, bool value)
-{
-    printf("It is %s\n", __func__);
-}
-
-bool get_pin(int pin)
-{
-    printf("It is %s\n", __func__);
-    return false;
-}
-
-void init_write_pin(int pin)
-{
-    printf("It is %s\n", __func__);
-}
-
-void init_read_pin(int pin)
-{
-    printf("It is %s\n", __func__);
-}
-
-void send(string msg)
-{
-    printf("It is %s\n", __func__);
-}
-
 
 int main()
 {

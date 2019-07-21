@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "weak.h"
+#include "BasicMovingPlatform_not_implemented.h"
 
 #define MSG_SZ 32
 

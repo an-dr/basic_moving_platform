@@ -8,7 +8,7 @@
 #ifndef MOVING_H_
 #define MOVING_H_
 
-#include "weak.h"
+#include "BasicMovingPlatform_not_implemented.h"
 #include "Motor.h"
 #include "CountingSensor.h"
 
